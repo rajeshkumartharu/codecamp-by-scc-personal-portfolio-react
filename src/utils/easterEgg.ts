@@ -1,5 +1,5 @@
 export const EASTER_EGG_KEY = "easterEggUnlocked";
-export const THEME_KEY = "starterKitTheme";
+export const THEME_KEY = "CstarterKitTheme";
 
 export const getEasterEggUnlocked = (): boolean => {
   return localStorage.getItem(EASTER_EGG_KEY) === "true";
